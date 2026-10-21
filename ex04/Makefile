@@ -1,6 +1,6 @@
 MAKEFLAGS += --no-print-directory
 F_CPU = 16000000UL
-SOURCES= main.c src/adc.c src/uart.c src/rgb.c
+SOURCES= main.c src/adc.c src/uart.c src/rgb.c src/diodes.c
 BUILD_DIR = build
 PROGRAM_NAME = adc4
 BIN = $(BUILD_DIR)/$(PROGRAM_NAME).bin
